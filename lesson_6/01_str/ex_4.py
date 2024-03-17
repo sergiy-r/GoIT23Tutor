@@ -11,3 +11,4 @@ symbol_map = {
 print(symbol_map)
 new_str = data_str.translate(symbol_map)
 print(new_str)
+print('Symbol map: ', type(symbol_map))
