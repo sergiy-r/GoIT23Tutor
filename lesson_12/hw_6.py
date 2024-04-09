@@ -34,6 +34,8 @@ class Record:
         # Phone('0951111111') == '0951111111'
         self.phones = [p for p in self.phones if str(p) != phone_number]
 
+    # TODO: Потрібно додати функції з попередньої роботи
+
     def __str__(self):
         return f"Contact name: {self.name.value}, phones: {'; '.join(p.value for p in self.phones)}"
 
